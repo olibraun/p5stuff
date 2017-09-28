@@ -1,0 +1,16 @@
+var erzeugt Variablen, die in der gesamten aktuellen Funktion erklärt sind.
+
+So liefert z.B.
+
+{
+for(var i=0;i<10;i++){
+...
+}
+console.log(i);
+}
+
+einen Output für i.
+
+Let tut dies nicht, damit bleibt i nur innerhalb der for-Schleife erklärt.
+
+const funktioniert wie let, mit dem Unterschied, dass die Variabel nur einmal belegt werden kann.
